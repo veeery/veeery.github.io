@@ -979,17 +979,6 @@ main {
   filter: grayscale(0);
 }
 
-@media screen and (max-width: 768px) {
-  .tools {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .tools-item {
-    margin: 10px 0;
-  }
-}
-
 /* .tool-item h4 {
   position: absolute;
   bottom: 0;
