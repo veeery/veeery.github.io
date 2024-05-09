@@ -1172,6 +1172,10 @@ main {
   #CV
 \*-----------------------------------*/
 
+.cv {
+  margin-bottom: 20px;
+}
+
 .cv-container a {
   text-decoration: none;
   color: var(--vegas-gold);
