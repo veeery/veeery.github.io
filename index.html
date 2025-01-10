@@ -1,1043 +1,863 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VERY - Personal Portfolio</title>
 
-    <!--
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VERY - Personal Portfolio</title>
+
+  <!--
     - favicon
   -->
-    <link
-      rel="shortcut icon"
-      href="./assets/images/logo.ico"
-      type="image/x-icon"
-    />
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
 
-    <!--
+  <!--
     - custom css link
   -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <!--
+  <!--
     - google font link
   -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
 
-  <body>
-    <!--
+<body>
+  <!--
     - #MAIN
   -->
 
-    <main>
-      <!--
+  <main>
+    <!--
       - #SIDEBAR
     -->
 
-      <aside class="sidebar" data-sidebar>
-        <div class="sidebar-info">
-          <figure class="avatar-box">
-            <img src="./assets/images/my-avatar.png" alt="Very" width="80" />
-          </figure>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Very" width="80" />
+        </figure>
 
-          <div class="info-content">
-            <h1 class="name" title="Very">Very</h1>
+        <div class="info-content">
+          <h1 class="name" title="Very">Very</h1>
 
-            <p class="title">Mobile App Developer</p>
-          </div>
-
-          <button class="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
-
-            <ion-icon name="chevron-down"></ion-icon>
-          </button>
+          <p class="title">Mobile App Developer</p>
         </div>
 
-        <div class="sidebar-info_more">
-          <div class="separator"></div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
 
-          <ul class="contacts-list">
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
 
-              <div class="contact-info">
-                <p class="contact-title">Email</p>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
 
-                <a
-                  href="mailto:very.very.23.5.1999@gmail.com"
-                  class="contact-link"
-                  >very.very.23.5.1999@gmail.com</a
-                >
-              </div>
-            </li>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Phone</p>
+              <a href="mailto:very.very.23.5.1999@gmail.com" class="contact-link">very.very.23.5.1999@gmail.com</a>
+            </div>
+          </li>
 
-                <a href="tel:+6289693399496" class="contact-link"
-                  >+62 (896) 9339-9496</a
-                >
-              </div>
-            </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="calendar-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Birthday</p>
+              <a href="tel:+6289693399496" class="contact-link">+62 (896) 9339-9496</a>
+            </div>
+          </li>
 
-                <time datetime="1999-05-23">Mei 23, 1999</time>
-              </div>
-            </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Location</p>
+              <time datetime="1999-05-23">Mei 23, 1999</time>
+            </div>
+          </li>
 
-                <address>Pontianak, West Borneo, Indonesia</address>
-              </div>
-            </li>
-          </ul>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
 
-          <div class="separator"></div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
 
-          <ul class="social-list">
-            <li class="social-item">
-              <a href="https://github.com/veeery" class="social-link">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-            </li>
+              <address>Pontianak, West Borneo, Indonesia</address>
+            </div>
+          </li>
+        </ul>
 
-            <li class="social-item">
-              <a
-                href="https://www.linkedin.com/in/ve-ry-744879234/"
-                class="social-link"
-              >
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
+        <div class="separator"></div>
 
-            <li class="social-item">
-              <a href="https://wa.me/+6289693399496" class="social-link">
-                <ion-icon name="logo-whatsapp"></ion-icon>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://github.com/veeery" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
 
-      <!--
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/ve-ry-744879234/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://wa.me/+6289693399496" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!--
       - #main-content
     -->
 
-      <div class="main-content">
-        <!--
+    <div class="main-content">
+      <!--
         - #NAVBAR
       -->
 
-        <nav class="navbar">
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <button class="navbar-link active" data-nav-link>About</button>
-            </li>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Resume</button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Portfolio</button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>CV</button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>CV</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Contact</button>
-            </li>
-          </ul>
-        </nav>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
 
-        <!--
+      <!--
         - #ABOUT
       -->
 
-        <article class="about active" data-page="about">
-          <header>
-            <h2 class="h2 article-title">About me</h2>
-          </header>
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
 
-          <section class="about-text">
-            <p>
-              I'm a Mobile App Developer based in Pontianak, Indonesia,
-              specializing in mobile development, particularly adept in Flutter.
-            </p>
+        <section class="about-text">
+          <p>
+            I'm a Mobile App Developer based in Pontianak, Indonesia,
+            specializing in mobile development, particularly adept in Flutter.
+          </p>
 
-            <p>
-              I enjoy crafting clean and efficient code layouts, which not only
-              facilitate easier maintenance during development but also enhance
-              the overall performance of applications.
-            </p>
-          </section>
+          <p>
+            I enjoy crafting clean and efficient code layouts, which not only
+            facilitate easier maintenance during development but also enhance
+            the overall performance of applications.
+          </p>
+        </section>
 
-          <!--
+        <!--
           - service
         -->
 
-          <section class="service">
-            <h3 class="h3 service-title">What i'm doing</h3>
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
 
-            <ul class="service-list">
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-dev.svg"
-                    alt="Web development icon"
-                    width="40"
-                  />
-                </div>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Apps development</h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Apps development</h4>
 
-                  <p class="service-item-text">
-                    High-quality development of apps at the professional level.
-                  </p>
-                </div>
-              </li>
+                <p class="service-item-text">
+                  High-quality development of apps at the professional level.
+                </p>
+              </div>
+            </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-app.svg"
-                    alt="mobile app icon"
-                    width="40"
-                  />
-                </div>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Mobile apps</h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
 
-                  <p class="service-item-text">
-                    Professional development of applications for iOS and Android
-                    using Flutter.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </section>
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android
+                  using Flutter.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
 
-          <!--
+        <!--
           - testimonials modal
         -->
 
-          <div class="modal-container" data-modal-container>
-            <div class="overlay" data-overlay></div>
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
 
-            <section class="testimonials-modal">
-              <button class="modal-close-btn" data-modal-close-btn>
-                <ion-icon name="close-outline"></ion-icon>
-              </button>
-            </section>
-          </div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </section>
+        </div>
 
-          <!--
+        <!--
           - clients
         -->
 
-          <section class="clients">
-            <h3 class="h3 clients-title">Clients</h3>
+        <section class="clients">
+          <h3 class="h3 clients-title">Clients</h3>
 
-            <ul class="clients-list has-scrollbar">
-              <li class="clients-item">
-                <a href="#">
-                  <img src="./assets/images/project-7.png" alt="client logo" />
-                </a>
-              </li>
+          <ul class="clients-list has-scrollbar">
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo" />
+              </a>
+            </li>
 
-              <li class="clients-item">
-                <a href="#">
-                  <img
-                    src="./assets/images/logo-1-color.png"
-                    alt="client logo"
-                  />
-                </a>
-              </li>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo" />
+              </a>
+            </li>
 
-              <li class="clients-item">
-                <a href="#">
-                  <img
-                    src="./assets/images/logo-2-color.png"
-                    alt="client logo"
-                  />
-                </a>
-              </li>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo" />
+              </a>
+            </li>
 
-              <li class="clients-item">
-                <a href="#">
-                  <img
-                    src="./assets/images/logo-3-color.png"
-                    alt="client logo"
-                  />
-                </a>
-              </li>
-              <li class="clients-item">
-                <a href="#">
-                  <img src="./assets/images/project-6.png" alt="client logo" />
-                </a>
-              </li>
-            </ul>
-          </section>
-        </article>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo" />
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/project-6.png" alt="client logo" />
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
 
-        <!--
+      <!--
         - #RESUME
       -->
 
-        <article class="resume" data-page="resume">
-          <header>
-            <h2 class="h2 article-title">Resume</h2>
-          </header>
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-
-              <h3 class="h3">Education</h3>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Universitas Widya Dharma Pontianak
-                </h4>
-                <h5 class="h5 timeline-item-subtitle">Sistem Informasi</h5>
+            <h3 class="h3">Education</h3>
+          </div>
 
-                <span>Des 2017 — Aug 2021</span>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Universitas Widya Dharma Pontianak
+              </h4>
+              <h5 class="h5 timeline-item-subtitle">Sistem Informasi</h5>
 
-                <p class="timeline-text">IPK 3.34</p>
-              </li>
-            </ol>
-          </section>
+              <span>Des 2017 — Aug 2021</span>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
+              <p class="timeline-text">IPK 3.34</p>
+            </li>
+          </ol>
+        </section>
 
-              <h3 class="h3">Experience</h3>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Flutter Developer</h4>
-                <h5 class="h5 timeline-item-subtitle">
-                  PT Mirae Assets Sekuritas Indonesia
-                </h5>
-                <span>June 2024 - Current</span>
+            <h3 class="h3">Experience</h3>
+          </div>
 
-                <p class="timeline-text">Creating a module package.</p>
-              </li>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Flutter Developer</h4>
+              <h5 class="h5 timeline-item-subtitle">
+                PT Mirae Assets Sekuritas Indonesia
+              </h5>
+              <span>June 2024 - Current</span>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Freelance Software Engineer
-                </h4>
+              <p class="timeline-text">Creating a module package.</p>
+            </li>
 
-                <span>Feb 2024 - Current</span>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Freelance Software Engineer
+              </h4>
 
-                <p class="timeline-text">
-                  Freelance Mobile Developer specializing in Flutter. Skilled in
-                  crafting high-quality mobile applications with a keen eye for
-                  design and user experience. Proficient in Dart, with a solid
-                  understanding of state management solutions and responsive
-                  design principles. Committed to delivering projects on time
-                  and maintaining clear communication with clients. Always ready
-                  to take on challenging projects and provide innovative
-                  solutions.
-                </p>
-              </li>
+              <span>Feb 2024 - Current</span>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Project Manager</h4>
-                <h5 class="h5 timeline-item-subtitle">
-                  PT Grha Digital Indonesia
-                </h5>
-                <span>Sept 2023 — Feb 2024</span>
+              <p class="timeline-text">
+                Freelance Mobile Developer specializing in Flutter. Skilled in
+                crafting high-quality mobile applications with a keen eye for
+                design and user experience. Proficient in Dart, with a solid
+                understanding of state management solutions and responsive
+                design principles. Committed to delivering projects on time
+                and maintaining clear communication with clients. Always ready
+                to take on challenging projects and provide innovative
+                solutions.
+              </p>
+            </li>
 
-                <p class="timeline-text">
-                  Project Manager with hands-on experience in managing CRM at PT
-                  Pakita Jaya. Although my tenure in this role was brief, it was
-                  intense and productive. I successfully navigated the
-                  challenges of a dynamic environment, fostering team
-                  collaboration and ensuring project deliverables were met on
-                  time.
-                </p>
-              </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Project Manager</h4>
+              <h5 class="h5 timeline-item-subtitle">
+                PT Grha Digital Indonesia
+              </h5>
+              <span>Sept 2023 — Feb 2024</span>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Senior Software Engineer</h4>
-                <h5 class="h5 timeline-item-subtitle">
-                  PT Grha Digital Indonesia
-                </h5>
-                <span>Nov 2021 — Sept 2023</span>
+              <p class="timeline-text">
+                Project Manager with hands-on experience in managing CRM at PT
+                Pakita Jaya. Although my tenure in this role was brief, it was
+                intense and productive. I successfully navigated the
+                challenges of a dynamic environment, fostering team
+                collaboration and ensuring project deliverables were met on
+                time.
+              </p>
+            </li>
 
-                <p class="timeline-text">
-                  Experienced Senior Software Engineer specializing in Flutter.
-                  Expert in building robust, scalable mobile applications with a
-                  deep understanding of Dart and Flutter framework. Proven
-                  ability to lead teams, mentor junior developers, and manage
-                  projects to successful completion.
-                </p>
-              </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Senior Software Engineer</h4>
+              <h5 class="h5 timeline-item-subtitle">
+                PT Grha Digital Indonesia
+              </h5>
+              <span>Nov 2021 — Sept 2023</span>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Junior Mobile Developer</h4>
-                <h5 class="h5 timeline-item-subtitle">
-                  PT Grha Digital Indonesia
-                </h5>
-                <span>Feb 2021 - Nov 2021</span>
+              <p class="timeline-text">
+                Experienced Senior Software Engineer specializing in Flutter.
+                Expert in building robust, scalable mobile applications with a
+                deep understanding of Dart and Flutter framework. Proven
+                ability to lead teams, mentor junior developers, and manage
+                projects to successful completion.
+              </p>
+            </li>
 
-                <p class="timeline-text">
-                  Energetic Junior Mobile Developer with a knack for creating
-                  innovative mobile applications. Proficient in various
-                  programming languages and always eager to learn new
-                  technologies. Committed to delivering high-quality results in
-                  a fast-paced, collaborative environment.
-                </p>
-              </li>
-            </ol>
-          </section>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Junior Mobile Developer</h4>
+              <h5 class="h5 timeline-item-subtitle">
+                PT Grha Digital Indonesia
+              </h5>
+              <span>Feb 2021 - Nov 2021</span>
 
-          <!--
+              <p class="timeline-text">
+                Energetic Junior Mobile Developer with a knack for creating
+                innovative mobile applications. Proficient in various
+                programming languages and always eager to learn new
+                technologies. Committed to delivering high-quality results in
+                a fast-paced, collaborative environment.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <!--
            - #Skill
           -->
 
-          <section class="skill">
-            <h3 class="h3 skills-title">My skills</h3>
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
 
-            <ul class="skills-list content-card">
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Flutter / Dart</h5>
-                  <data value="90">90%</data>
-                  <span class="status">Expert</span>
-                </div>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Flutter / Dart</h5>
+                <data value="90">90%</data>
+                <span class="status">Expert</span>
+              </div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 90%"></div>
-                </div>
-              </li>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
 
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Java Android</h5>
-                  <data value="50">50%</data>
-                  <span class="status">Intermediate</span>
-                </div>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Java Android</h5>
+                <data value="50">50%</data>
+                <span class="status">Intermediate</span>
+              </div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 50%"></div>
-                </div>
-              </li>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%"></div>
+              </div>
+            </li>
 
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Kotlin</h5>
-                  <data value="50">50%</data>
-                  <span class="status">Intermediate</span>
-                </div>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Kotlin</h5>
+                <data value="50">50%</data>
+                <span class="status">Intermediate</span>
+              </div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 50%"></div>
-                </div>
-              </li>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%"></div>
+              </div>
+            </li>
 
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">NestJS</h5>
-                  <data value="30">30%</data>
-                  <span class="status">Beginner</span>
-                </div>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">NestJS</h5>
+                <data value="30">30%</data>
+                <span class="status">Beginner</span>
+              </div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 30%"></div>
-                </div>
-              </li>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%"></div>
+              </div>
+            </li>
 
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Golang</h5>
-                  <data value="20">20%</data>
-                  <span class="status">Beginner</span>
-                </div>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Golang</h5>
+                <data value="20">20%</data>
+                <span class="status">Beginner</span>
+              </div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 20%"></div>
-                </div>
-              </li>
-            </ul>
-          </section>
-          <h3 class="h3 tools-title">Tools</h3>
-          <section class="tools-container">
-            <!-- <h3 class="h3 tools-title">Tools</h3> -->
-            <div class="tools-item">
-              <a href="#">
-                <img src="./assets/images/tools-1.png" alt="Android Studio" />
-              </a>
-            </div>
-            <div class="tools-item">
-              <a href="#">
-                <img src="./assets/images/tools-2.png" alt="Visual Code" />
-              </a>
-            </div>
-            <div class="tools-item">
-              <a href="#">
-                <img src="./assets/images/tools-3.png" alt="XCode" />
-              </a>
-            </div>
-          </section>
-        </article>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 20%"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <h3 class="h3 tools-title">Tools</h3>
+        <section class="tools-container">
+          <!-- <h3 class="h3 tools-title">Tools</h3> -->
+          <div class="tools-item">
+            <a href="#">
+              <img src="./assets/images/tools-1.png" alt="Android Studio" />
+            </a>
+          </div>
+          <div class="tools-item">
+            <a href="#">
+              <img src="./assets/images/tools-2.png" alt="Visual Code" />
+            </a>
+          </div>
+          <div class="tools-item">
+            <a href="#">
+              <img src="./assets/images/tools-3.png" alt="XCode" />
+            </a>
+          </div>
+        </section>
+      </article>
 
-        <!--
+      <!--
         - #PORTFOLIO
       -->
 
-        <article class="portfolio" data-page="portfolio">
-          <header>
-            <h2 class="h2 article-title">Portfolio</h2>
-          </header>
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
 
-          <section class="projects">
-            <ul class="filter-list">
-              <li class="filter-item">
-                <button class="active" data-filter-btn>All</button>
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Certificate</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>
+                Select category
+              </div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
               </li>
 
-              <li class="filter-item">
-                <button data-filter-btn>Applications</button>
-              </li>
-              <li class="filter-item">
-                <button data-filter-btn>Certificate</button>
-              </li>
-            </ul>
-
-            <div class="filter-select-box">
-              <button class="filter-select" data-select>
-                <div class="select-value" data-selecct-value>
-                  Select category
-                </div>
-
-                <div class="select-icon">
-                  <ion-icon name="chevron-down"></ion-icon>
-                </div>
-              </button>
-
-              <ul class="select-list">
-                <li class="select-item">
-                  <button data-select-item>All</button>
-                </li>
-
-                <li class="select-item">
-                  <button data-select-item>Applications</button>
-                </li>
-
-                <li class="select-item">
-                  <button data-select-item>Certificate</button>
-                </li>
-              </ul>
-            </div>
-
-            <ul class="project-list">
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="applications"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-7.png"
-                      alt="Mirae Assets"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Mirae Assets</h3>
-
-                  <p class="project-category">Applications</p>
-                </a>
+              <li class="select-item">
+                <button data-select-item>Applications</button>
               </li>
 
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="applications"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-6.png"
-                      alt="GKKB"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">GKKB</h3>
-
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="applications"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-3.png"
-                      alt="SIPERKASA"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">SIPERKASA</h3>
-
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="applications"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-2.png"
-                      alt="Dopio"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Dopio</h3>
-
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="applications"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/logo-3-color.png"
-                      alt="B-Living"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">B-Living</h3>
-
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="applications"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-4.png"
-                      alt="GDI Absensi"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">GDI Absensi</h3>
-
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="applications"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-5.png"
-                      alt="VideoTron"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">VideoTron</h3>
-
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="certificate"
-              >
-                <a
-                  href="https://www.dicoding.com/certificates/N9ZO67426XG5"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/certificate-1.png"
-                      alt="SIPERKASA"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">
-                    Menjadi Flutter Developer Expert
-                  </h3>
-
-                  <p class="project-category">Certificate</p>
-                </a>
-              </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="certificate"
-              >
-                <a
-                  href="https://www.dicoding.com/certificates/N9ZO66GK8XG5"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/certificate-2.png"
-                      alt="SIPERKASA"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Pemgrograman dengan Kotlin</h3>
-
-                  <p class="project-category">Certificate</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="certificate"
-              >
-                <a
-                  href="https://www.dicoding.com/certificates/0LZ098OORZ65"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/certificate-3.png"
-                      alt="SIPERKASA"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">
-                    Belajar Membuat Aplikasi Back-End
-                  </h3>
-
-                  <p class="project-category">Certificate</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="certificate"
-              >
-                <a
-                  href="https://www.dicoding.com/certificates/ERZRGY7N2PYV"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/certificate-4.png"
-                      alt="SIPERKASA"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">
-                    Cloud Practitioner Essentials AWS
-                  </h3>
-
-                  <p class="project-category">Certificate</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="certificate"
-              >
-                <a
-                  href="https://www.dicoding.com/certificates/ERZR1MJ3WZYV"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/certificate-5.png"
-                      alt="SIPERKASA"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Visualisasi Data</h3>
-
-                  <p class="project-category">Certificate</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="certificate"
-              >
-                <a
-                  href="https://www.dicoding.com/certificates/07Z6V3E3YXQR"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/certificate-5.png"
-                      alt="SIPERKASA"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">
-                    Prinsip Pemgrograman Flutter SOLID
-                  </h3>
-
-                  <p class="project-category">Certificate</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="certificate"
-              >
-                <a
-                  href="https://www.dicoding.com/certificates/07Z6V3E3YXQR"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/certificate-7.png"
-                      alt="SIPERKASA"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">
-                    Cloud Practitioner Essentials AWS
-                  </h3>
-
-                  <p class="project-category">Certificate</p>
-                </a>
+              <li class="select-item">
+                <button data-select-item>Certificate</button>
               </li>
             </ul>
-          </section>
-        </article>
+          </div>
 
-        <!-- CV 
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="module_package">
+              <a href="https://www.youtube.com/watch?v=LM9HLS_raLw" , target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="Mirae Assets Intelligence Assistence (MAIA)"
+                    loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Mirae Assets Intelligence Assistence (MAIA)</h3>
+
+                <p class="project-category">Module Package</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.png" alt="Mirae Assets Sage Club" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Mirae Assets Sage Club</h3>
+
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="GKKB" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">GKKB</h3>
+
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.png" alt="SIPERKASA" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">SIPERKASA</h3>
+
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="Dopio" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Dopio</h3>
+
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/logo-3-color.png" alt="B-Living" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">B-Living</h3>
+
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="GDI Absensi" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">GDI Absensi</h3>
+
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="VideoTron" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">VideoTron</h3>
+
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="certificate">
+              <a href="https://www.dicoding.com/certificates/N9ZO67426XG5" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/certificate-1.png" alt="SIPERKASA" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">
+                  Menjadi Flutter Developer Expert
+                </h3>
+
+                <p class="project-category">Certificate</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="certificate">
+              <a href="https://www.dicoding.com/certificates/N9ZO66GK8XG5" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/certificate-2.png" alt="SIPERKASA" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Pemgrograman dengan Kotlin</h3>
+
+                <p class="project-category">Certificate</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="certificate">
+              <a href="https://www.dicoding.com/certificates/0LZ098OORZ65" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/certificate-3.png" alt="SIPERKASA" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">
+                  Belajar Membuat Aplikasi Back-End
+                </h3>
+
+                <p class="project-category">Certificate</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="certificate">
+              <a href="https://www.dicoding.com/certificates/ERZRGY7N2PYV" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/certificate-4.png" alt="SIPERKASA" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">
+                  Cloud Practitioner Essentials AWS
+                </h3>
+
+                <p class="project-category">Certificate</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="certificate">
+              <a href="https://www.dicoding.com/certificates/ERZR1MJ3WZYV" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/certificate-5.png" alt="SIPERKASA" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Visualisasi Data</h3>
+
+                <p class="project-category">Certificate</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="certificate">
+              <a href="https://www.dicoding.com/certificates/07Z6V3E3YXQR" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/certificate-5.png" alt="SIPERKASA" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">
+                  Prinsip Pemgrograman Flutter SOLID
+                </h3>
+
+                <p class="project-category">Certificate</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="certificate">
+              <a href="https://www.dicoding.com/certificates/07Z6V3E3YXQR" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/certificate-7.png" alt="SIPERKASA" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">
+                  Cloud Practitioner Essentials AWS
+                </h3>
+
+                <p class="project-category">Certificate</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- CV 
         -->
 
-        <article class="cv" data-page="cv">
-          <header>
-            <h2 class="h2 article-title">CV</h2>
-          </header>
-          <div class="cv-container">
-            <a
-              href="https://drive.google.com/drive/folders/1zQnL5YPOmFgjw_swfFaKNxDeM5pNsbEO?usp=sharing"
-              target="_blank"
-              >Download CV</a
-            >
-          </div>
-        </article>
+      <article class="cv" data-page="cv">
+        <header>
+          <h2 class="h2 article-title">CV</h2>
+        </header>
+        <div class="cv-container">
+          <a href="https://drive.google.com/drive/folders/1zQnL5YPOmFgjw_swfFaKNxDeM5pNsbEO?usp=sharing"
+            target="_blank">Download CV</a>
+        </div>
+      </article>
 
-        <!--
+      <!--
         - #CONTACT
         -->
 
-        <article class="contact" data-page="contact">
-          <header>
-            <h2 class="h2 article-title">Contact</h2>
-          </header>
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
 
-          <section class="mapbox" data-mapbox>
-            <figure>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63837.08094463586!2d109.29035087668!3d-0.03539484084936412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d58f604b0799b%3A0x511ef9501fc9ffe3!2sPontianak%2C%20West%20Kalimantan!5e0!3m2!1sen!2sid!4v1715110528471!5m2!1sen!2sid"
-                width="600"
-                height="450"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </figure>
-          </section>
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63837.08094463586!2d109.29035087668!3d-0.03539484084936412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d58f604b0799b%3A0x511ef9501fc9ffe3!2sPontianak%2C%20West%20Kalimantan!5e0!3m2!1sen!2sid!4v1715110528471!5m2!1sen!2sid"
+              width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
 
-          <section class="contact-form">
-            <h3 class="h3 form-title">Contact Form</h3>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
 
-            <form action="#" class="form" data-form>
-              <div class="input-wrapper">
-                <input
-                  type="text"
-                  name="fullname"
-                  class="form-input"
-                  placeholder="Full name"
-                  required
-                  data-form-input
-                />
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input />
 
-                <input
-                  type="email"
-                  name="email"
-                  class="form-input"
-                  placeholder="Email address"
-                  required
-                  data-form-input
-                />
-              </div>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required
+                data-form-input />
+            </div>
 
-              <textarea
-                name="message"
-                class="form-input"
-                placeholder="Your Message"
-                required
-                data-form-input
-              ></textarea>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-              <button class="form-btn" type="submit" disabled data-form-btn>
-                <ion-icon name="paper-plane"></ion-icon>
-                <span>Send Message</span>
-              </button>
-            </form>
-          </section>
-        </article>
-      </div>
-    </main>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
 
-    <!--
+  <!--
     - custom js link
   -->
-    <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/script.js"></script>
 
-    <!--
+  <!--
     - ionicon link
   -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>
